@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43297DEA2806FC9F0046469B /* M5L7___WebKit_ViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43297DE92806FC9F0046469B /* M5L7___WebKit_ViewApp.swift */; };
-		43297DEC2806FC9F0046469B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43297DEB2806FC9F0046469B /* ContentView.swift */; };
+		43297DEA2806FC9F0046469B /* WebKit_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43297DE92806FC9F0046469B /* WebKit_View.swift */; };
+		43297DEC2806FC9F0046469B /* UsingWebKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43297DEB2806FC9F0046469B /* UsingWebKit.swift */; };
 		43297DEE2806FCA00046469B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43297DED2806FCA00046469B /* Assets.xcassets */; };
 		43297DF12806FCA00046469B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43297DF02806FCA00046469B /* Preview Assets.xcassets */; };
+		43297DF8280703460046469B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43297DF7280703460046469B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43297DE62806FC9F0046469B /* M5L7 - WebKit View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M5L7 - WebKit View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43297DE92806FC9F0046469B /* M5L7___WebKit_ViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "M5L7___WebKit_ViewApp.swift"; sourceTree = "<group>"; };
-		43297DEB2806FC9F0046469B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43297DE92806FC9F0046469B /* WebKit_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKit_View.swift; sourceTree = "<group>"; };
+		43297DEB2806FC9F0046469B /* UsingWebKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingWebKit.swift; sourceTree = "<group>"; };
 		43297DED2806FCA00046469B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43297DF02806FCA00046469B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43297DF7280703460046469B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		43297DE82806FC9F0046469B /* M5L7 - WebKit View */ = {
 			isa = PBXGroup;
 			children = (
-				43297DE92806FC9F0046469B /* M5L7___WebKit_ViewApp.swift */,
-				43297DEB2806FC9F0046469B /* ContentView.swift */,
+				43297DE92806FC9F0046469B /* WebKit_View.swift */,
+				43297DEB2806FC9F0046469B /* UsingWebKit.swift */,
+				43297DF7280703460046469B /* WebView.swift */,
 				43297DED2806FCA00046469B /* Assets.xcassets */,
 				43297DEF2806FCA00046469B /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43297DEC2806FC9F0046469B /* ContentView.swift in Sources */,
-				43297DEA2806FC9F0046469B /* M5L7___WebKit_ViewApp.swift in Sources */,
+				43297DF8280703460046469B /* WebView.swift in Sources */,
+				43297DEC2806FC9F0046469B /* UsingWebKit.swift in Sources */,
+				43297DEA2806FC9F0046469B /* WebKit_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
